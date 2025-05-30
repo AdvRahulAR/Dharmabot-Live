@@ -124,10 +124,10 @@ export class GdmLiveAudioVisuals3D extends LitElement {
     pmremGenerator.compileEquirectangularShader();
 
     const sphereMaterial = new THREE.MeshStandardMaterial({
-      color: 0x000010,
+      color: 0x004400,
       metalness: 0.5,
       roughness: 0.1,
-      emissive: 0x000010,
+      emissive: 0x002200,
       emissiveIntensity: 1.5,
     });
 
