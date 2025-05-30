@@ -2,6 +2,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
 }
 
 .logo {
@@ -11,4 +13,10 @@ body {
   width: 50px;
   height: 50px;
   z-index: 20;
+}
+
+.status-text {
+  color: #2c3e50;
+  font-size: 14px;
+  text-align: center;
 }
